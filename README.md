@@ -1,1 +1,1 @@
-# classwork-figure
+https://siarheichura.github.io/classwork-figure/
