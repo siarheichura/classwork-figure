@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 1000px;
+    width: 1000px;
+}
+
+.figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.figure__square--big {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    background: #00a1ff;
+    z-index: 2;
+}
+
+.figure__square--big:hover {
+    background: #8b0000;
+    z-index: 4;
+}
+
+.figure__square--small {
+    position: absolute;
+    
+    width: 25%;
+    height: 25%;
+    top: calc(50% - 12.5%);
+    left: calc(50% - 12.5%);
+    background: #f8ba00;
+    border-radius: 10%;
+    z-index: 3;
+}
+
+.figure__circle {
+    position: absolute; 
+    height: 25%;
+    width: 25%;
+    background: #ed220b;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.figure__circle:hover {
+    z-index: 3;
+}
+
+.circle--top-left {
+    top: 12.5%;
+    left: 12.5%;
+}
+
+.circle--top-left:hover {
+    background: #d2691e;
+}
+
+.circle--top-right {
+    top: 12.5%;
+    left: 62.5%;
+}
+
+.circle--top-right:hover {
+    background: #8a2be2;
+}
+
+.circle--bottom-left {
+    top: 62.5%;
+    left: 12.5%;
+}
+
+.circle--bottom-left:hover {
+    background: #7fff00;
+}
+
+.circle--bottom-right {
+    top: 62.5%;
+    left: 62.5%;
+}
+
+.circle--bottom-right:hover {
+    background: #008b8b;
+}
